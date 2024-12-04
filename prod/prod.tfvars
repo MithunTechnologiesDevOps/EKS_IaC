@@ -1,0 +1,10 @@
+vpc_cidr = "172.17.0.0/16"
+enviroment = "prod"
+aws_azs_list = ["ap-south-1a", "ap-south-1b","ap-south-1c"]
+public_subents_cidrs =  ["172.17.0.0/20" ,"172.17.16.0/20","172.17.32.0/20"]
+private_subents_cidrs = ["172.17.48.0/20","172.17.64.0/20","172.17.80.0/20"]
+eks_worker_node_group_disk_size = 50
+eks_worker_node_group_instance_type = "t2.large"
+node_group_desired_size = 2
+node_group_min_size = 2
+node_group_max_size = 5
