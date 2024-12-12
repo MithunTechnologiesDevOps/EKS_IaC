@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "mithuntech-terraform-statefiles-bucket"
+    bucket = "mithuntech-terraform-statefiles"
     region = "ap-south-1"
     dynamodb_table = "mithuntech-terraform-statelock"
   }
